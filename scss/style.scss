@@ -167,11 +167,70 @@ header{
     
 }
 
+.tuto{
+  height: 425px;
+  padding-top: 25px;
+
+  h1{
+    font-size: 26px;
+    font-family: Roboto;
+    margin-left: 31px;
+  }
+}
+
 
 .blue{
   background-color: #f5edff!important;
 }
 
+.block_tuto{
+  -webkit-box-shadow: 1px 9px 12px 1px rgba(0,0,0,0.1); 
+  box-shadow: 1px 9px 12px 1px rgba(0,0,0,0.1);
+  border-radius: 30px;
+  height: 59px;
+  margin: 0px 21px 27px 32px;
+  background-color: #F6F6F6;
+  padding-top: 25px;
+  position: relative;
+  top: 27px;
+
+  span{
+    color: white;
+    border-radius: 100%;
+    background-color: #9356DC;
+    position: absolute;
+    display: inline;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    margin-left: -17px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding-top: 7px;
+    color: #333;
+  }
+
+  svg{
+    position: relative;
+    display: inline;
+    left: 29px;
+    font-size: 23px;
+    margin-top: 4px;
+   
+    path{
+      fill:#7E7E7E;
+    }
+  }
+
+  p{
+    position: relative;
+    display: inline;
+    left: 46px;
+    font-size: 18px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 500;
+  }
+}
 
 .restaurant_display{
   background-color: $alternate-bg;
