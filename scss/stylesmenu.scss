@@ -120,18 +120,18 @@ header{
 
 @for $i from 0 through 2 {
   .menu-#{$i}{
-    -webkit-animation-delay:(#{$i*3s}); 
-    animation-delay:(#{$i*3s}); 
-    animation-duration: 3s;
+    -webkit-animation-delay:(#{$i*2s}); 
+    animation-delay:(#{$i*2s}); 
+    animation-duration: 2s;
     animation-name: fade-in;
     animation-fill-mode: both;
 
    
     @for $u from 3 through 5 {
       .block_menu:nth-child(#{$u}){
-        -webkit-animation-delay:(#{$i*3s+$u*0.5s}); 
-        animation-delay:(#{$i*3s+$u*0.5s}); 
-        animation-duration: 0.5s;
+        -webkit-animation-delay:(#{$i*3s+$u*0.275s}); 
+        animation-delay:(#{$i*3s+$u*0.275s}); 
+        animation-duration: 0.275s;
         animation-name: fade-in;
         animation-fill-mode: both;
       }
