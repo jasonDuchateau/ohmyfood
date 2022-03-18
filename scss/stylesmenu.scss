@@ -29,7 +29,57 @@ $tertiary-color: #99E2D0;
 $alternate-bg : #F6F6F6;
 
 
+@media (min-width: 992px)  /* Computer */
+{
+  body{
+    .center_body{
+      position: relative;
+      width: 40%;
+      margin: 0 auto;
+    }
+  }
 
+  .menu{
+    .block_menu:hover{
+      .block_anime{
+        .container_menu{
+          .inline{
+            width: 276px;
+            span{
+              right: 200px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+ 
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+  body{
+    .center_body{
+      position: relative;
+      width: 65%;
+      margin: 0 auto;
+    }
+  }
+
+  .menu .block_menu:hover .block_anime .container_menu .inline span{
+      right: 115px;
+  }
+  
+
+  .menu .block_menu:hover .container_menu .inline p {
+    width: 285px!important;
+  }
+
+ 
+}
 
 
 header{
@@ -199,13 +249,10 @@ header{
       width: 100%;
       height: 100%;
       transition: width 2s, height 2s;
-
-      
     }
 
     .container_menu {
       .inline{
-   
         p{
           position: relative;
           top: -10px;
@@ -388,6 +435,10 @@ footer{
     font-family: 'Roboto';
   }
 
+
+  a{
+    color:white;
+  }
 
 }
 
