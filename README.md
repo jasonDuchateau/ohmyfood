@@ -1,7 +1,7 @@
 # ohmyfood
 
 require : 
-Node
+Node / NPM
 
 
 npm i 
