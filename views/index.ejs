@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../css/normalize.css" rel="stylesheet" type="text/css">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
@@ -17,18 +18,18 @@
             <div class="logo"></div>
         </header>
 
-        <section class="loca">
+        <div class="loca">
             <div class="loca_block">
                 <i class="fas fa-map-marker-alt"></i>
                 <p>Paris, Belleville</p>
             </div>
-        </section>
+        </div>
 
         <section class="reservation">
             <div class="block">
                 <h1>Réservez le menu qui vous convient</h1>
                 <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-                <button href="">Explorer nos restaurants</button>
+                <button>Explorer nos restaurants</button>
             </div>
         </section>
 
@@ -63,18 +64,19 @@
                     <span class="spinner-inner-2"></span>
                     <span class="spinner-inner-3"></span>
                 </div>
-                <a href="/menupalette">
-                    <div class="block_restau">
-                        <button>Nouveau</button>
-                        <img class="imagepalette"></img>
-                        <h2>La palette du goût</h2>
-                        <p>Ménilmontant</p>
-                        <div class="heartAnim">
-                            <i class="far fa-heart heartAwesome"></i>
-                            <i class="fa-solid fa-heart OnHoverheart"></i>
-                        </div>
+
+                <a class="block_restau" href="/menupalette">
+                    <div class="New">Nouveau</div>
+                    <img class="imagepalette" alt="Restaurants palette"
+                        src="../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" />
+                    <h2>La palette du goût</h2>
+                    <p>Ménilmontant</p>
+                    <div class="heartAnim">
+                        <i class="far fa-heart heartAwesome"></i>
+                        <i class="fa-solid fa-heart OnHoverheart"></i>
                     </div>
                 </a>
+
             </div>
 
             <div class="menuLoader">
@@ -85,8 +87,9 @@
                 </div>
                 <a href="/menunote">
                     <div class="block_restau">
-                        <button>Nouveau</button>
-                        <img class="imagenote"></img>
+                        <div class="New">Nouveau</div>
+                        <img class="imagenote" alt="Restaurants note"
+                            src="../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" />
                         <h2>La note enchantée</h2>
                         <p>Charonne</p>
                         <div class="heartAnim">
@@ -105,7 +108,8 @@
                 </div>
                 <a href="/menufrancaise">
                     <div class="block_restau">
-                        <img class="imagefrancaise"></img>
+                        <img class="imagefrancaise" alt="Restaurants français"
+                            src="../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" />
                         <h2>A la française</h2>
                         <p>Cité rouge</p>
                         <div class="heartAnim">
@@ -124,7 +128,9 @@
                 </div>
                 <a href="/menunote">
                     <div class="block_restau">
-                        <img class="imagedelice"></img>
+                        <img class="imagedelice"
+                            src="../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                            alt="Restaurants délice" />
                         <h2>Le délice des sens</h2>
                         <p>Folie-Méricourt</p>
                         <div class="heartAnim">

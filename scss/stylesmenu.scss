@@ -176,6 +176,10 @@ header{
     animation-name: fade-in;
     animation-fill-mode: both;
 
+  
+   @if $i > 0 {
+    margin-top: 70px;
+   }
    
     @for $u from 3 through 5 {
       .block_menu:nth-child(#{$u}){
@@ -193,7 +197,6 @@ header{
 .menu{
   z-index: 0;
   position: relative;
-  height: 400px;
   top: -96px;
 
   h2{ 

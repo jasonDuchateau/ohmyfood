@@ -294,18 +294,20 @@ header{
       height: 218px;
       width: 100%;
     }
-    button{
+    .New{
       background-color: #99e2d0;
       color: #32947d;
       position: absolute;
       margin-top: 13px;
-      width: 87px;
-      height: 31px;
+      width: 72px;
+      height: 24px;
       font-size: 15px;
       font-weight: 700;
       border-radius: 3px;
       font-family: 'Roboto';
-      right: 32px;
+      right: 18%;
+      padding-top: 5px;
+      padding-left: 10px;
       border: none;
     } 
     h2{
