@@ -1,5 +1,5 @@
 @font-face {
-  font-family:"shrikhand";
+  font-family: "shrikhand";
   src: url("Shrikhand-Regular.ttf") format("truetype");
 }
 
@@ -17,22 +17,34 @@ $size: 30px;
 
 
 @keyframes fade-in {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 
 @keyframes fade-out {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 
 
-@media (min-width: 992px)  /* Computer */
-{
-  body{
-    .center_body{
+@media (min-width: 992px)
+
+/* Computer */
+  {
+  body {
+    .center_body {
       position: relative;
       width: 40%;
       margin: 0 auto;
@@ -40,15 +52,16 @@ $size: 30px;
   }
 
 
-  .restaurant_display{
+  .restaurant_display {
     .block_restau {
-      width: 70%!important;
+      width: 70% !important;
+
       button {
         right: 139px !important;
       }
 
-      .heartAnim{
-        right: 16%!important;
+      .heartAnim {
+        right: 16% !important;
       }
     }
   }
@@ -56,10 +69,9 @@ $size: 30px;
 
 
 
-@media only screen and (min-width: 768px) and (max-width: 991px)
-{
-  body{
-    .center_body{
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    .center_body {
       position: relative;
       width: 65%;
       margin: 0 auto;
@@ -67,83 +79,85 @@ $size: 30px;
   }
 
 
-  .restaurant_display{
+  .restaurant_display {
     .block_restau {
-      width: 70%!important;
+      width: 70% !important;
+
       button {
         right: 99px !important;
       }
 
-      .heartAnim{
-        right: 16%!important;
+      .heartAnim {
+        right: 16% !important;
       }
     }
   }
 }
 
 
-header{
-  -webkit-box-shadow: 1px 2px 4px 1px  rgba(0,0,0,0.15); 
-  box-shadow: 1px 2px 4px 1px rgba(0 ,0 ,0 , 0.15);
+header {
+  -webkit-box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.15);
   height: 54px;
   padding-top: 23px;
   position: relative;
   z-index: 2;
 }
 
-.logo{
-    height: 68px;
-    width: 203px;
-    margin : 0 auto 0 auto;
-    background-image: url("../images/logo/ohmyfood@2x.svg");
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    position: relative;
+.logo {
+  height: 68px;
+  width: 203px;
+  margin: 0 auto 0 auto;
+  background-image: url("../images/logo/ohmyfood@2x.svg");
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  position: relative;
 }
 
-.loca{
-    background-color: #EAEAEA;
-    position: relative;
-    z-index: 1;
-    height: 138px;
-    font-family: 'Roboto';
-    color: '#424242';
-    font-smooth:optimizeLegibility;
-    
-      .loca_block{
-        display: block;
-        position: relative;
-        margin: 0 auto 0 auto;
-        width: 333px;
-        font-weight: 500;
-      }
-        svg{
-          display: block;
-          position: relative;
-          left: 70px;
-          top: 13px;
-          font-size: 17px;
-          font-weight: 200;
-          color:#424242;
-        }
+.loca {
+  background-color: #EAEAEA;
+  position: relative;
+  z-index: 1;
+  height: 138px;
+  font-family: 'Roboto';
+  color: '#424242';
+  font-smooth: optimizeLegibility;
 
-        p{
-          position: relative;
-          left: 103px;
-          top: -21px;
-          display: block;
-          width: 308px;
-          font-size: 18px;
-          font-weight: 700;
-          -webkit-font-smoothing: antialiased;
-          color: #424242;
-        }
+  .loca_block {
+    display: block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    width: 333px;
+    font-weight: 500;
   }
 
+  svg {
+    display: block;
+    position: relative;
+    left: 70px;
+    top: 13px;
+    font-size: 17px;
+    font-weight: 200;
+    color: #424242;
+  }
+
+  p {
+    position: relative;
+    left: 103px;
+    top: -21px;
+    display: block;
+    width: 308px;
+    font-size: 18px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    color: #424242;
+  }
+}
 
 
 
-.reservation{
+
+.reservation {
   position: relative;
   background-color: #f6f6f6;
   text-align: center;
@@ -153,47 +167,47 @@ header{
   font-family: 'Roboto';
   height: 300px;
 
-    .block{
-      margin: 0 auto;
-      padding-top: 40px;
-      color: #333;
-      -webkit-font-smoothing: antialiased;
-    }
+  .block {
+    margin: 0 auto;
+    padding-top: 40px;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+  }
 
-    p{
-      font-size: 17px;
-      color:#595959;
-      -webkit-font-smoothing: antialiased;
-    }
+  p {
+    font-size: 17px;
+    color: #595959;
+    -webkit-font-smoothing: antialiased;
+  }
 
 
-    button{
-      border-radius: 150px;
-      background-color: #d66cda;
-      color: white;
-      font-size: 17px;
-      height: 50px;
-      font-weight: 500;
-      width: 233px;
-      border : none;
-      -webkit-font-smoothing: antialiased; 
-      -webkit-box-shadow:0px 7px 5px 1px  rgba(0,0,0,0.15); 
-      box-shadow:0px 7px 5px 1px  rgba(0 ,0 ,0 , 0.15);
-    }
-    
-    button:hover{
-      background-color: #da83dd;
-      -webkit-box-shadow: 0px 9px 6px 1px rgba(0,0,0,0.15); 
-      box-shadow:0px 9px 6px 1px rgba(0 ,0 ,0 , 0.15);
-    }
-    
+  button {
+    border-radius: 150px;
+    background-color: #d66cda;
+    color: white;
+    font-size: 17px;
+    height: 50px;
+    font-weight: 500;
+    width: 233px;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-shadow: 0px 7px 5px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 7px 5px 1px rgba(0, 0, 0, 0.15);
+  }
+
+  button:hover {
+    background-color: #da83dd;
+    -webkit-box-shadow: 0px 9px 6px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 9px 6px 1px rgba(0, 0, 0, 0.15);
+  }
+
 }
 
-.tuto{
+.tuto {
   height: 425px;
   padding-top: 25px;
 
-  h1{
+  h1 {
     font-size: 26px;
     font-family: Roboto;
     margin-left: 31px;
@@ -201,13 +215,13 @@ header{
 }
 
 
-.blue{
-  background-color: #f5edff!important;
+.blue {
+  background-color: #f5edff !important;
 }
 
-.block_tuto{
-  -webkit-box-shadow: 1px 9px 12px 1px rgba(0,0,0,0.1); 
-  box-shadow: 1px 9px 12px 1px rgba(0,0,0,0.1);
+.block_tuto {
+  -webkit-box-shadow: 1px 9px 12px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 9px 12px 1px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   height: 59px;
   margin: 0px 21px 27px 32px;
@@ -216,7 +230,7 @@ header{
   position: relative;
   top: 27px;
 
-  span{
+  span {
     color: white;
     border-radius: 100%;
     background-color: #9356DC;
@@ -234,67 +248,69 @@ header{
     padding-left: 2px;
     padding-right: 2px;
   }
-  
-  svg{
+
+  svg {
     position: relative;
     display: inline;
     left: 29px;
     font-size: 20px;
     margin-top: 4px;
 
-   
-    path{
-      fill:#7E7E7E;
+
+    path {
+      fill: #7E7E7E;
     }
   }
 
-  .blue{
-    path{
-      fill:#9356dc;
+  .blue {
+    path {
+      fill: #9356dc;
     }
   }
 
-  p{
+  p {
     position: relative;
     display: inline;
     left: 46px;
     font-size: 18px;
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
   }
 }
 
-.restaurant_display{
+.restaurant_display {
   background-color: $alternate-bg;
   padding-top: 30px;
-  padding-bottom : 15px;
-  h2{ 
+  padding-bottom: 15px;
+
+  h2 {
     font-size: 30px;
     font-weight: 900;
     font-family: 'Roboto';
     margin-left: 22px;
   }
-  
-  a{
+
+  a {
     text-decoration: none;
     color: black;
   }
 
-  .block_restau{
+  .block_restau {
     display: block;
-    -webkit-box-shadow: 1px 6px 12px 1px rgba(0,0,0,0.12); 
-    box-shadow: 1px 6px 12px 1px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 1px 6px 12px 1px rgba(0, 0, 0, 0.12);
+    box-shadow: 1px 6px 12px 1px rgba(0, 0, 0, 0.12);
     width: 90%;
     height: 315px;
     margin: 0 auto 5px auto;
     border-radius: 15px;
 
-    img{
+    img {
       border-radius: 15px 15px 0 0;
       height: 218px;
       width: 100%;
     }
-    .New{
+
+    .New {
       background-color: #99e2d0;
       color: #32947d;
       position: absolute;
@@ -309,14 +325,16 @@ header{
       padding-top: 5px;
       padding-left: 10px;
       border: none;
-    } 
-    h2{
+    }
+
+    h2 {
       font-size: 21px;
       font-weight: 700;
       font-family: 'Roboto';
       margin-left: 29px;
     }
-    p{
+
+    p {
       font-size: 18px;
       font-weight: 500;
       font-family: 'Roboto';
@@ -325,24 +343,24 @@ header{
       color: #454545;
     }
 
-    svg{
+    svg {
       font-size: 28px;
     }
 
-    .heartAnim{
-      $this : &;
+    .heartAnim {
+      $this: &;
       position: absolute;
       width: 50px;
       height: 50px;
       right: 8%;
       margin-top: -59px;
-      
+
       .heartAwesome {
         opacity: 1;
-      
+
       }
 
-      .OnHoverheart{
+      .OnHoverheart {
         opacity: 0;
         position: relative;
         top: -29px;
@@ -355,16 +373,19 @@ header{
           animation-name: fade-out;
           animation-fill-mode: both;
           position: relative;
-          > path {
+
+          >path {
             fill: #9356DC;
           }
         }
-        .OnHoverheart{
+
+        .OnHoverheart {
           animation-duration: 1s;
           animation-name: fade-in;
           animation-fill-mode: both;
           position: relative;
-          > path {
+
+          >path {
             fill: #9356DC;
           }
         }
@@ -372,21 +393,21 @@ header{
     }
 
 
-   
+
 
   }
 
 }
 
 
-footer{
+footer {
 
   height: 195px;
   padding-top: 30px;
   background-color: #353535;
   color: white;
 
-  .logofooter{
+  .logofooter {
     height: 45px;
     width: 242px;
     font-size: 24px;
@@ -394,27 +415,28 @@ footer{
     vertical-align: middle;
   }
 
-  .block{
+  .block {
     margin-left: 35px;
   }
 
-  svg{
+  svg {
     font-size: 17px;
     width: 18px;
   }
 
-  .inline{
+  .inline {
     height: 30px;
     font-size: 25px;
     font-family: 'Roboto';
-    p{
+
+    p {
       display: unset !important;
       font-size: 17px;
       font-weight: 500;
     }
   }
 
-  span{
+  span {
     display: block;
     font-size: 17px;
     font-weight: 500;
@@ -424,7 +446,7 @@ footer{
   }
 
 
-  a{
+  a {
     text-decoration: 'none';
     color: white;
   }
@@ -432,41 +454,14 @@ footer{
 }
 
 
-.imagepalette{
-  background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px;
-}
-
-.imagenote{
-  background-image: url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px;
-}
-
-.imagedelice{
-  background-image: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px;
-}
-
-.imagefrancaise{
-  background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px;
-}
 
 @for $i from 1 through 5 {
-  .menuLoader:nth-child(#{$i}){
-    a > .block_restau{
-      animation: fade-in 0.75s  #{$i * 0.75s} ease both;
+  .menuLoader:nth-child(#{$i}) {
+    a>.block_restau {
+      animation: fade-in 0.75s #{$i * 0.75s} ease both;
       opacity: 0;
     }
-   
+
     .spinner {
       position: relative;
       top: 154px;
@@ -474,25 +469,26 @@ footer{
       width: $size;
       height: $size;
       opacity: 1;
-  
-      animation: spinner 0.75s linear infinite,fade-out 0.75s  #{$i * 0.75s} both;
-  
-  
+
+      animation: spinner 0.75s linear infinite,
+      fade-out 0.75s #{$i * 0.75s} both;
+
+
       span {
         position: absolute;
         width: 100%;
         height: 100%;
         border-radius: 50%;
       }
-      
+
       .spinner-inner-1 {
-        background: linear-gradient(to right, rgba($spinner,0) 0%,rgba($spinner,0) 50%,$spinner 51%);
+        background: linear-gradient(to right, rgba($spinner, 0) 0%, rgba($spinner, 0) 50%, $spinner 51%);
       }
-      
+
       .spinner-inner-2 {
-        background: linear-gradient(to top, rgba($background,0) 0%,$background 100%);
+        background: linear-gradient(to top, rgba($background, 0) 0%, $background 100%);
       }
-      
+
       .spinner-inner-3 {
         $offset: $size * 0.1;
         top: $offset;
@@ -510,6 +506,11 @@ footer{
 
 
 @keyframes spinner {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg);}
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
