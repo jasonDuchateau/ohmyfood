@@ -1,5 +1,5 @@
 @font-face {
-  font-family:"shrikhand";
+  font-family: "shrikhand";
   src: url("Shrikhand-Regular.ttf") format("truetype");
 }
 
@@ -10,14 +10,24 @@
 
 
 @keyframes fade-in {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 
 @keyframes rotate {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 
@@ -29,23 +39,31 @@ $tertiary-color: #99E2D0;
 $alternate-bg : #F6F6F6;
 
 
-@media (min-width: 992px)  /* Computer */
-{
-  body{
-    .center_body{
+@media (min-width: 992px)
+
+/* Computer */
+  {
+  body {
+    .center_body {
       position: relative;
       width: 40%;
       margin: 0 auto;
     }
   }
 
-  .menu{
-    .block_menu:hover{
-      .block_anime{
-        .container_menu{
-          .inline{
+
+  .submit {
+    left: 38% !important;
+  }
+
+  .menu {
+    .block_menu:hover {
+      .block_anime {
+        .container_menu {
+          .inline {
             width: 276px;
-            span{
+
+            span {
               right: 200px;
             }
           }
@@ -54,137 +72,139 @@ $alternate-bg : #F6F6F6;
 
     }
   }
- 
+
 }
 
 
 
-@media only screen and (min-width: 768px) and (max-width: 991px)
-{
-  body{
-    .center_body{
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    .center_body {
       position: relative;
       width: 65%;
       margin: 0 auto;
     }
   }
 
-  .menu .block_menu:hover .block_anime .container_menu .inline span{
-      right: 115px;
+  .menu .block_menu:hover .block_anime .container_menu .inline span {
+    right: 115px;
   }
-  
+
 
   .menu .block_menu:hover .container_menu .inline p {
-    width: 285px!important;
+    width: 285px !important;
   }
 
- 
+
+  .submit {
+    left: 29% !important;
+  }
 }
 
 
-header{
-  -webkit-box-shadow: 1px 6px 12px 1px rgba(0,0,0,0.22); 
-  box-shadow: 1px 6px 12px 1px rgba(0,0,0,0.22);
+header {
+  -webkit-box-shadow: 1px 6px 12px 1px rgba(0, 0, 0, 0.22);
+  box-shadow: 1px 6px 12px 1px rgba(0, 0, 0, 0.22);
   height: 50px;
   padding-top: 23px;
   position: relative;
   z-index: 2;
 
-  .return_nav{
+  .return_nav {
     position: absolute;
-    top:27px;
-    left:25px;
+    top: 27px;
+    left: 25px;
 
-    svg{
+    svg {
       height: 25px;
     }
   }
 
 
 
-  
-  .logo{
+
+  .logo {
     height: 68px;
     width: 203px;
-    margin : 0 auto 0 auto;
+    margin: 0 auto 0 auto;
     background-image: url("../images/logo/ohmyfood@2x.svg");
     background-repeat: no-repeat;
     vertical-align: middle;
     position: relative;
-}
+  }
 }
 
 
 
 .restaurant-palette {
   background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
-  background-repeat: none;
   background-size: cover;
-  height: 300px; }
+  height: 300px;
+}
 
-  
+
 .restaurant-note {
   background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
-  background-repeat: none;
   background-size: cover;
-  height: 300px; }
+  height: 300px;
+}
 
 .restaurant-francaise {
   background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-  background-repeat: none;
   background-size: cover;
-  height: 300px; }
+  height: 300px;
+}
 
 .restaurant-delice {
   background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
-  background-repeat: none;
   background-size: cover;
-  height: 300px; }
+  height: 300px;
+}
 
 
-.restaurant-head{
+.restaurant-head {
+  position: relative;
+  top: -57px;
+  background-color: white;
+  width: 100%;
+  height: 133px;
+  border-radius: 50px;
+
+  h1 {
     position: relative;
-    top: -57px;
-    background-color: white;
-    width: 100%;
-    height: 133px;
-    border-radius: 50px;
+    top: 35px;
+    left: -24px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'shrikhand';
+  }
 
-    h1{
-      position: relative;
-      top: 35px;
-      left: -24px;
-      font-size: 25px;
-      font-weight: 400;
-      font-family: 'shrikhand';
-    }
-
-    svg{
-      position: absolute;
-      right: 41px;
-      top: 34px;
-      font-size: 24px;
-      font-weight: 100;
-    }
+  svg {
+    position: absolute;
+    right: 41px;
+    top: 34px;
+    font-size: 24px;
+    font-weight: 100;
+  }
 }
 
 @for $i from 0 through 2 {
-  .menu-#{$i}{
-    -webkit-animation-delay:(#{$i*2s}); 
-    animation-delay:(#{$i*2s}); 
+  .menu-#{$i} {
+    -webkit-animation-delay:(#{$i*2s});
+    animation-delay:(#{$i*2s});
     animation-duration: 2s;
     animation-name: fade-in;
     animation-fill-mode: both;
 
-  
-   @if $i > 0 {
-    margin-top: 70px;
-   }
-   
+
+    @if $i>0 {
+      margin-top: 70px;
+    }
+
     @for $u from 3 through 5 {
-      .block_menu:nth-child(#{$u}){
-        -webkit-animation-delay:(#{$i*3s+$u*0.275s}); 
-        animation-delay:(#{$i*3s+$u*0.275s}); 
+      .block_menu:nth-child(#{$u}) {
+        -webkit-animation-delay:(#{$i*3s+$u*0.275s});
+        animation-delay:(#{$i*3s+$u*0.275s});
         animation-duration: 0.275s;
         animation-name: fade-in;
         animation-fill-mode: both;
@@ -194,12 +214,12 @@ header{
 }
 
 
-.menu{
+.menu {
   z-index: 0;
   position: relative;
   top: -96px;
 
-  h2{ 
+  h2 {
     position: relative;
     z-index: 2;
     margin-left: 15px;
@@ -208,7 +228,7 @@ header{
     font-family: 'Roboto';
   }
 
-  .spacer{
+  .spacer {
     position: relative;
     z-index: 2;
     width: 42px;
@@ -219,16 +239,16 @@ header{
     left: 17px;
   }
 
-  .fade{
+  .fade {
     opacity: 0;
   }
 
-  
 
 
-  .block_menu{
-    -webkit-box-shadow: 1px 9px 12px 1px rgba(0,0,0,0.1); 
-    box-shadow: 1px 9px 12px 1px rgba(0,0,0,0.1);
+
+  .block_menu {
+    -webkit-box-shadow: 1px 9px 12px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 9px 12px 1px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     height: 59px;
     margin: 0px 12px 27px 12px;
@@ -237,26 +257,26 @@ header{
     position: relative;
     top: 27px;
     z-index: 1;
-  
-    .title{
+
+    .title {
       position: relative;
       display: inline;
       left: 14px;
       font-size: 18px;
-      font-family: 'Roboto' , sans-serif;
+      font-family: 'Roboto', sans-serif;
       font-weight: 700;
     }
 
-    
-    .block_anime{
+
+    .block_anime {
       width: 100%;
       height: 100%;
       transition: width 2s, height 2s;
     }
 
     .container_menu {
-      .inline{
-        p{
+      .inline {
+        p {
           position: relative;
           top: -10px;
           left: 14px;
@@ -270,32 +290,32 @@ header{
           width: 289px;
           transition: width 2s;
         }
-  
-        span{
+
+        span {
           position: absolute;
           font-family: 'Roboto';
           font-weight: 700;
           top: 45px;
           right: 14px;
-         transition: right 2s;
+          transition: right 2s;
+        }
       }
     }
-  }
 
-  .check-validation{
-    visibility: hidden;
-    display: block;
-    height: 80px;
-    background-color: antiquewhite;
-    position: relative;
-    top: -78px;
-    float: right;
-    border-radius: 0 25px 25px 0;
-    width: 4%;
-    transition: width 2s;
-    overflow: hidden;
+    .check-validation {
+      visibility: hidden;
+      display: block;
+      height: 80px;
+      background-color: antiquewhite;
+      position: relative;
+      top: -78px;
+      float: right;
+      border-radius: 0 25px 25px 0;
+      width: 4%;
+      transition: width 2s;
+      overflow: hidden;
 
-      svg{
+      svg {
         visibility: hidden;
         opacity: 0%;
         width: 18px;
@@ -309,38 +329,39 @@ header{
         right: -55px;
 
         transition: all 1s;
-        transition: right 1.5s ,  transform 0.5s 1s;
+        transition: right 1.5s, transform 0.5s 1s;
 
 
         animation-duration: 1s;
         animation-name: fade-in;
         animation-fill-mode: both;
       }
+    }
   }
-}
 
 
-  .block_menu:hover{
+  .block_menu:hover {
 
-    .block_anime{
+    .block_anime {
       width: 79%;
       height: 100%;
     }
 
-    .container_menu{
-      .inline{
+    .container_menu {
+      .inline {
         width: 276px;
 
-        p{
+        p {
           width: 220px;
         }
 
-        span{
+        span {
           right: 80px;
         }
       }
     }
-    .check-validation{
+
+    .check-validation {
       visibility: visible;
       display: block;
       width: 21%;
@@ -351,7 +372,7 @@ header{
       float: right;
       border-radius: 0 25px 25px 0;
 
-      svg{
+      svg {
         visibility: visible;
         display: initial;
         width: 17px;
@@ -360,24 +381,24 @@ header{
         top: 29px;
         position: relative;
         right: -23px;
-        transform: rotate(360deg); 
+        transform: rotate(360deg);
       }
     }
   }
 
-   
 
-    .check-validation{
-      width: 100px;
-      height: 50px;
-      //transform: width 6s display 6s;
-    }
+
+  .check-validation {
+    width: 100px;
+    height: 50px;
+    //transform: width 6s display 6s;
+  }
 }
 
 
 
 
-.submit{
+.submit {
   border-radius: 150px;
   background-color: #b461dc;
   color: white;
@@ -390,18 +411,18 @@ header{
   position: relative;
   top: -50px;
   left: 24%;
-  border:none;
+  border: none;
 }
 
 
-footer{
+footer {
 
   height: 195px;
   padding-top: 30px;
   background-color: #353535;
   color: white;
 
-  .logofooter{
+  .logofooter {
     height: 45px;
     width: 242px;
     font-size: 24px;
@@ -409,27 +430,28 @@ footer{
     vertical-align: middle;
   }
 
-  .block{
+  .block {
     margin-left: 35px;
   }
 
-  svg{
+  svg {
     font-size: 17px;
     width: 18px;
   }
 
-  .inline{
+  .inline {
     height: 30px;
     font-size: 25px;
     font-family: 'Roboto';
-    p{
+
+    p {
       display: unset !important;
       font-size: 17px;
       font-weight: 500;
     }
   }
 
-  span{
+  span {
     display: block;
     font-size: 17px;
     font-weight: 500;
@@ -439,33 +461,33 @@ footer{
   }
 
 
-  a{
-    color:white;
+  a {
+    color: white;
   }
 
 }
 
 
-.imagepalette{
+.imagepalette {
   background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.imagenote{
+.imagenote {
   background-image: url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.imagedelice{
+.imagedelice {
   background-image: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.imagefrancaise{
+.imagefrancaise {
   background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
   background-size: cover;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
