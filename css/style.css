@@ -69,7 +69,7 @@ header {
   background-color: #EAEAEA;
   position: relative;
   z-index: 1;
-  height: 129px;
+  height: 138px;
   font-family: 'Roboto';
   color: #424242; }
   .loca .loca_block {
@@ -149,6 +149,8 @@ header {
   padding-top: 25px;
   position: relative;
   top: 27px; }
+  .block_tuto:hover {
+    background-color: rgba(150, 173, 238, 0.76) !important; }
   .block_tuto span {
     color: white;
     border-radius: 100%;
@@ -171,7 +173,8 @@ header {
     display: inline;
     left: 29px;
     font-size: 20px;
-    margin-top: 4px; }
+    margin-top: 4px;
+    background-color: transparent !important; }
     .block_tuto svg path {
       fill: #7E7E7E; }
   .block_tuto .blue path {
@@ -311,6 +314,7 @@ footer {
   width: 30px;
   height: 30px;
   opacity: 1;
+  background-color: transparent;
   animation: spinner 0.75s linear infinite, fade-out 0.75s 0.75s both; }
   .menuLoader:nth-child(1) .spinner span {
     position: absolute;
@@ -339,6 +343,7 @@ footer {
   width: 30px;
   height: 30px;
   opacity: 1;
+  background-color: transparent;
   animation: spinner 0.75s linear infinite, fade-out 0.75s 1.5s both; }
   .menuLoader:nth-child(2) .spinner span {
     position: absolute;
@@ -367,6 +372,7 @@ footer {
   width: 30px;
   height: 30px;
   opacity: 1;
+  background-color: transparent;
   animation: spinner 0.75s linear infinite, fade-out 0.75s 2.25s both; }
   .menuLoader:nth-child(3) .spinner span {
     position: absolute;
@@ -395,6 +401,7 @@ footer {
   width: 30px;
   height: 30px;
   opacity: 1;
+  background-color: transparent;
   animation: spinner 0.75s linear infinite, fade-out 0.75s 3s both; }
   .menuLoader:nth-child(4) .spinner span {
     position: absolute;
@@ -423,6 +430,7 @@ footer {
   width: 30px;
   height: 30px;
   opacity: 1;
+  background-color: transparent;
   animation: spinner 0.75s linear infinite, fade-out 0.75s 3.75s both; }
   .menuLoader:nth-child(5) .spinner span {
     position: absolute;
@@ -440,8 +448,339 @@ footer {
     height: 24px;
     background: white; }
 
+.menuLoader:nth-child(6) a > .block_restau {
+  animation: fade-in 0.75s 4.5s ease both;
+  opacity: 0; }
+
+.menuLoader:nth-child(6) .spinner {
+  position: relative;
+  top: 154px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background-color: transparent;
+  animation: spinner 0.75s linear infinite, fade-out 0.75s 4.5s both; }
+  .menuLoader:nth-child(6) .spinner span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+  .menuLoader:nth-child(6) .spinner .spinner-inner-1 {
+    background: linear-gradient(to right, rgba(147, 86, 220, 0) 0%, rgba(147, 86, 220, 0) 50%, #9356DC 51%); }
+  .menuLoader:nth-child(6) .spinner .spinner-inner-2 {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
+  .menuLoader:nth-child(6) .spinner .spinner-inner-3 {
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background: white; }
+
+.menuLoader:nth-child(7) a > .block_restau {
+  animation: fade-in 0.75s 5.25s ease both;
+  opacity: 0; }
+
+.menuLoader:nth-child(7) .spinner {
+  position: relative;
+  top: 154px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background-color: transparent;
+  animation: spinner 0.75s linear infinite, fade-out 0.75s 5.25s both; }
+  .menuLoader:nth-child(7) .spinner span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+  .menuLoader:nth-child(7) .spinner .spinner-inner-1 {
+    background: linear-gradient(to right, rgba(147, 86, 220, 0) 0%, rgba(147, 86, 220, 0) 50%, #9356DC 51%); }
+  .menuLoader:nth-child(7) .spinner .spinner-inner-2 {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
+  .menuLoader:nth-child(7) .spinner .spinner-inner-3 {
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background: white; }
+
+.menuLoader:nth-child(8) a > .block_restau {
+  animation: fade-in 0.75s 6s ease both;
+  opacity: 0; }
+
+.menuLoader:nth-child(8) .spinner {
+  position: relative;
+  top: 154px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background-color: transparent;
+  animation: spinner 0.75s linear infinite, fade-out 0.75s 6s both; }
+  .menuLoader:nth-child(8) .spinner span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+  .menuLoader:nth-child(8) .spinner .spinner-inner-1 {
+    background: linear-gradient(to right, rgba(147, 86, 220, 0) 0%, rgba(147, 86, 220, 0) 50%, #9356DC 51%); }
+  .menuLoader:nth-child(8) .spinner .spinner-inner-2 {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
+  .menuLoader:nth-child(8) .spinner .spinner-inner-3 {
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background: white; }
+
+.menuLoader:nth-child(9) a > .block_restau {
+  animation: fade-in 0.75s 6.75s ease both;
+  opacity: 0; }
+
+.menuLoader:nth-child(9) .spinner {
+  position: relative;
+  top: 154px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background-color: transparent;
+  animation: spinner 0.75s linear infinite, fade-out 0.75s 6.75s both; }
+  .menuLoader:nth-child(9) .spinner span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+  .menuLoader:nth-child(9) .spinner .spinner-inner-1 {
+    background: linear-gradient(to right, rgba(147, 86, 220, 0) 0%, rgba(147, 86, 220, 0) 50%, #9356DC 51%); }
+  .menuLoader:nth-child(9) .spinner .spinner-inner-2 {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
+  .menuLoader:nth-child(9) .spinner .spinner-inner-3 {
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background: white; }
+
+.menuLoader:nth-child(10) a > .block_restau {
+  animation: fade-in 0.75s 7.5s ease both;
+  opacity: 0; }
+
+.menuLoader:nth-child(10) .spinner {
+  position: relative;
+  top: 154px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background-color: transparent;
+  animation: spinner 0.75s linear infinite, fade-out 0.75s 7.5s both; }
+  .menuLoader:nth-child(10) .spinner span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+  .menuLoader:nth-child(10) .spinner .spinner-inner-1 {
+    background: linear-gradient(to right, rgba(147, 86, 220, 0) 0%, rgba(147, 86, 220, 0) 50%, #9356DC 51%); }
+  .menuLoader:nth-child(10) .spinner .spinner-inner-2 {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
+  .menuLoader:nth-child(10) .spinner .spinner-inner-3 {
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background: white; }
+
+.menuLoader:nth-child(11) a > .block_restau {
+  animation: fade-in 0.75s 8.25s ease both;
+  opacity: 0; }
+
+.menuLoader:nth-child(11) .spinner {
+  position: relative;
+  top: 154px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background-color: transparent;
+  animation: spinner 0.75s linear infinite, fade-out 0.75s 8.25s both; }
+  .menuLoader:nth-child(11) .spinner span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+  .menuLoader:nth-child(11) .spinner .spinner-inner-1 {
+    background: linear-gradient(to right, rgba(147, 86, 220, 0) 0%, rgba(147, 86, 220, 0) 50%, #9356DC 51%); }
+  .menuLoader:nth-child(11) .spinner .spinner-inner-2 {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
+  .menuLoader:nth-child(11) .spinner .spinner-inner-3 {
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background: white; }
+
+.menuLoader:nth-child(12) a > .block_restau {
+  animation: fade-in 0.75s 9s ease both;
+  opacity: 0; }
+
+.menuLoader:nth-child(12) .spinner {
+  position: relative;
+  top: 154px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background-color: transparent;
+  animation: spinner 0.75s linear infinite, fade-out 0.75s 9s both; }
+  .menuLoader:nth-child(12) .spinner span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+  .menuLoader:nth-child(12) .spinner .spinner-inner-1 {
+    background: linear-gradient(to right, rgba(147, 86, 220, 0) 0%, rgba(147, 86, 220, 0) 50%, #9356DC 51%); }
+  .menuLoader:nth-child(12) .spinner .spinner-inner-2 {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
+  .menuLoader:nth-child(12) .spinner .spinner-inner-3 {
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background: white; }
+
+.menuLoader:nth-child(13) a > .block_restau {
+  animation: fade-in 0.75s 9.75s ease both;
+  opacity: 0; }
+
+.menuLoader:nth-child(13) .spinner {
+  position: relative;
+  top: 154px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background-color: transparent;
+  animation: spinner 0.75s linear infinite, fade-out 0.75s 9.75s both; }
+  .menuLoader:nth-child(13) .spinner span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+  .menuLoader:nth-child(13) .spinner .spinner-inner-1 {
+    background: linear-gradient(to right, rgba(147, 86, 220, 0) 0%, rgba(147, 86, 220, 0) 50%, #9356DC 51%); }
+  .menuLoader:nth-child(13) .spinner .spinner-inner-2 {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
+  .menuLoader:nth-child(13) .spinner .spinner-inner-3 {
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background: white; }
+
+.menuLoader:nth-child(14) a > .block_restau {
+  animation: fade-in 0.75s 10.5s ease both;
+  opacity: 0; }
+
+.menuLoader:nth-child(14) .spinner {
+  position: relative;
+  top: 154px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background-color: transparent;
+  animation: spinner 0.75s linear infinite, fade-out 0.75s 10.5s both; }
+  .menuLoader:nth-child(14) .spinner span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+  .menuLoader:nth-child(14) .spinner .spinner-inner-1 {
+    background: linear-gradient(to right, rgba(147, 86, 220, 0) 0%, rgba(147, 86, 220, 0) 50%, #9356DC 51%); }
+  .menuLoader:nth-child(14) .spinner .spinner-inner-2 {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
+  .menuLoader:nth-child(14) .spinner .spinner-inner-3 {
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background: white; }
+
+.menuLoader:nth-child(15) a > .block_restau {
+  animation: fade-in 0.75s 11.25s ease both;
+  opacity: 0; }
+
+.menuLoader:nth-child(15) .spinner {
+  position: relative;
+  top: 154px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background-color: transparent;
+  animation: spinner 0.75s linear infinite, fade-out 0.75s 11.25s both; }
+  .menuLoader:nth-child(15) .spinner span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+  .menuLoader:nth-child(15) .spinner .spinner-inner-1 {
+    background: linear-gradient(to right, rgba(147, 86, 220, 0) 0%, rgba(147, 86, 220, 0) 50%, #9356DC 51%); }
+  .menuLoader:nth-child(15) .spinner .spinner-inner-2 {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
+  .menuLoader:nth-child(15) .spinner .spinner-inner-3 {
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background: white; }
+
 @keyframes spinner {
   0% {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+
+@keyframes shadowanimate {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+.PageLoader .shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: inset 0px 0px 400px #000000;
+  box-shadow: inset 0px 0px 400px #000000;
+  animation: shadowanimate 3s both;
+  z-index: 66; }
+
+.PageLoader > .spinner {
+  position: relative;
+  top: 432px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background-color: transparent;
+  animation: spinner 0.75s linear infinite ,fade-out 0.75s 0.35s  both;
+  z-index: 77; }
+  .PageLoader > .spinner span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+  .PageLoader > .spinner .spinner-inner-1 {
+    background: linear-gradient(to right, rgba(147, 86, 220, 0) 0%, rgba(147, 86, 220, 0) 50%, #9356DC 51%); }
+  .PageLoader > .spinner .spinner-inner-2 {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
+  .PageLoader > .spinner .spinner-inner-3 {
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background: white; }

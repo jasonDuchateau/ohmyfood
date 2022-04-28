@@ -61,6 +61,36 @@ header {
     vertical-align: middle;
     position: relative; }
 
+.heartAnim {
+  position: absolute;
+  right: 41px;
+  top: 34px;
+  font-size: 24px;
+  font-weight: 100;
+  width: 50px;
+  height: 50px; }
+  .heartAnim .heartAwesome {
+    opacity: 1; }
+  .heartAnim .OnHoverheart {
+    opacity: 0;
+    right: -35px;
+    top: -28px; }
+  .heartAnim:hover .heartAwesome {
+    opacity: 0;
+    animation-duration: 1s;
+    animation-name: fade-out;
+    animation-fill-mode: both;
+    position: relative; }
+    .heartAnim:hover .heartAwesome > path {
+      fill: #9356DC; }
+  .heartAnim:hover .OnHoverheart {
+    animation-duration: 1s;
+    animation-name: fade-in;
+    animation-fill-mode: both;
+    position: relative; }
+    .heartAnim:hover .OnHoverheart > path {
+      fill: #9356DC; }
+
 .restaurant-palette {
   background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
@@ -89,16 +119,15 @@ header {
   height: 133px;
   border-radius: 50px; }
   .restaurant-head h1 {
-    position: relative;
+    position: absolute;
     top: 35px;
-    left: -24px;
+    left: 22px;
     font-size: 25px;
     font-weight: 400;
     font-family: 'shrikhand'; }
   .restaurant-head svg {
     position: absolute;
-    right: 41px;
-    top: 34px;
+    right: -8px;
     font-size: 24px;
     font-weight: 100; }
 
@@ -125,13 +154,37 @@ header {
     animation-delay: 1.375s;
     animation-duration: 0.275s;
     animation-name: fade-in;
-    animation-fill-mode: both;}
+    animation-fill-mode: both; }
   .menu-0 .block_menu:nth-child(6) {
-    -webkit-animation-delay: 1.875s;
-    animation-delay: 1.875s;
+    -webkit-animation-delay: 1.65s;
+    animation-delay: 1.65s;
     animation-duration: 0.275s;
     animation-name: fade-in;
-    animation-fill-mode: both;  }
+    animation-fill-mode: both; }
+  .menu-0 .block_menu:nth-child(7) {
+    -webkit-animation-delay: 1.925s;
+    animation-delay: 1.925s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
+  .menu-0 .block_menu:nth-child(8) {
+    -webkit-animation-delay: 2.2s;
+    animation-delay: 2.2s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
+  .menu-0 .block_menu:nth-child(9) {
+    -webkit-animation-delay: 2.475s;
+    animation-delay: 2.475s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
+  .menu-0 .block_menu:nth-child(10) {
+    -webkit-animation-delay: 2.75s;
+    animation-delay: 2.75s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
 
 .menu-1 {
   -webkit-animation-delay: 2s;
@@ -158,6 +211,36 @@ header {
     animation-duration: 0.275s;
     animation-name: fade-in;
     animation-fill-mode: both; }
+  .menu-1 .block_menu:nth-child(6) {
+    -webkit-animation-delay: 4.65s;
+    animation-delay: 4.65s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
+  .menu-1 .block_menu:nth-child(7) {
+    -webkit-animation-delay: 4.925s;
+    animation-delay: 4.925s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
+  .menu-1 .block_menu:nth-child(8) {
+    -webkit-animation-delay: 5.2s;
+    animation-delay: 5.2s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
+  .menu-1 .block_menu:nth-child(9) {
+    -webkit-animation-delay: 5.475s;
+    animation-delay: 5.475s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
+  .menu-1 .block_menu:nth-child(10) {
+    -webkit-animation-delay: 5.75s;
+    animation-delay: 5.75s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
 
 .menu-2 {
   -webkit-animation-delay: 4s;
@@ -181,6 +264,36 @@ header {
   .menu-2 .block_menu:nth-child(5) {
     -webkit-animation-delay: 7.375s;
     animation-delay: 7.375s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
+  .menu-2 .block_menu:nth-child(6) {
+    -webkit-animation-delay: 7.65s;
+    animation-delay: 7.65s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
+  .menu-2 .block_menu:nth-child(7) {
+    -webkit-animation-delay: 7.925s;
+    animation-delay: 7.925s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
+  .menu-2 .block_menu:nth-child(8) {
+    -webkit-animation-delay: 8.2s;
+    animation-delay: 8.2s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
+  .menu-2 .block_menu:nth-child(9) {
+    -webkit-animation-delay: 8.475s;
+    animation-delay: 8.475s;
+    animation-duration: 0.275s;
+    animation-name: fade-in;
+    animation-fill-mode: both; }
+  .menu-2 .block_menu:nth-child(10) {
+    -webkit-animation-delay: 8.75s;
+    animation-delay: 8.75s;
     animation-duration: 0.275s;
     animation-name: fade-in;
     animation-fill-mode: both; }
